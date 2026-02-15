@@ -5,6 +5,22 @@
   height: 58vw;
   padding: 30px 20px;
 
+  @media (max-width: 1280px) {
+    height: 100vw;
+  }
+
+  @media (max-width: 850px) {
+    height: 150vw;
+  }
+
+  @media (max-width: 620px) {
+    height: 200vw;
+  }
+
+  @media (max-width: 480px) {
+    height: 250vw;
+  }
+
   a {
     text-decoration: none;
     .contai_cart {

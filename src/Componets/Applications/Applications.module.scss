@@ -7,9 +7,29 @@
   padding-left: 0;
   padding-bottom: 0;
 
+  @media (max-width: 1280px) {
+    height: 100vw;
+  }
+
+  @media (max-width: 1000px) {
+    height: 150vw;
+  }
+
+  @media (max-width: 900px) {
+    height: 180vw;
+  }
+
+  @media (max-width: 675px) {
+    height: 230vw;
+  }
+
   @media (max-width: 600px) {
     padding-left: 30px;
     padding-bottom: 30px;
+  }
+
+  @media (max-width: 480px) {
+    height: 250vw;
   }
 
   .contai_top {
@@ -36,7 +56,6 @@
       height: 304px;
 
       @media (max-width: 2072px) {
-        
       }
 
       @media (max-width: 1400px) {
